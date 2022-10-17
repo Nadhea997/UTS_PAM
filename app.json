@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Countdown",
+    "slug": "countdown",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./sourse/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./sourse/assets/splash-screen.png",
+      "resizeMode": "contain",
+      "back groundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./sourse/assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.neszha.countdown"
+    },
+    "web": {
+      "favicon": "./sourse/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3664dc62-9097-4711-b662-d82c257c1b37"
+      }
+    }
+  }
+}
